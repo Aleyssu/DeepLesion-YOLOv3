@@ -15,14 +15,14 @@ First, make sure you've downloaded your dataset and it's structured correctly fo
 
 Your directory tree should look something like this:
 
-DeepLesion-YOLOv3/
-├─ DeepLesion-YOLOv3-torch.ipynb
-├─ DL_info.csv
-├─ images/
-│  ├─ 000001_01_01/
-│  │  ├─ 103.png
-│  │  ├─ 104.png
-│  ├─ 000001_01_02/
+DeepLesion-YOLOv3/\
+├─ DeepLesion-YOLOv3-torch.ipynb\
+├─ DL_info.csv\
+├─ images/\
+│  ├─ 000001_01_01/\
+│  │  ├─ 103.png\
+│  │  ├─ 104.png\
+│  ├─ 000001_01_02/\
 │  │  ├─ 008.png
 
 A couple images are provided in the repo for you to see how the data should be structured - feel free to override them.
