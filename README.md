@@ -1,5 +1,5 @@
 # DeepLesion-YOLOv3
-An experimental application of the YOLOv3 model on DeepLesion for lesion detection.
+An experimental application of the YOLOv3 model on DeepLesion for lesion detection. The model's architecture was designed based off of the architecture table presented in the [YOLOv3 paper](https://arxiv.org/pdf/1804.02767) with slight modifications (extra convolution and residual layers) to downsize the 512x512 images in the dataset to the 256x256 images which the YOLOv3 model in the paper was built to handle. This model has only been tested on the DeepLesion subset from kaggle, where it has been prone to overfitting and poor generalization to new images. It's possible that the model will have better results when trained on the entirety of the DeepLesion dataset, but a proper computational setup and likely some modification to the data handling code will be required.
 
 ## Dataset
 See https://www.kaggle.com/datasets/kmader/nih-deeplesion-subset for downloading a small subset of the DeepLesion dataset (~8GB)
